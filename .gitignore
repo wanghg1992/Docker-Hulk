@@ -1,0 +1,16 @@
+#*.tar
+#/*
+#ros-*
+#!/desktop-xenial-nvidia-kinetic/
+#!/desktop-xenial-nvidia-kinetic/*
+#!MakeDockerContainer.sh
+#!.gitignore
+
+*
+!.gitignore
+!MakeDockerContainer.sh
+!/desktop-xenial-nvidia-kinetic/
+!/desktop-xenial-nvidia-kinetic/*
+*.tar
+*.directory
+
