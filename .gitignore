@@ -11,6 +11,8 @@
 !MakeDockerContainer.sh
 !/desktop-xenial-nvidia-kinetic/
 !/desktop-xenial-nvidia-kinetic/*
+!/desktop-xenial-nvidia-kinetic-vnc/
+!/desktop-xenial-nvidia-kinetic-vnc/*
 *.tar
 *.directory
 
