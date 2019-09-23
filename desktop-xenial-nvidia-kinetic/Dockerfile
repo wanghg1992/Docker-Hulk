@@ -46,7 +46,7 @@ RUN apt-get update && apt install -y --no-install-recommends terminator and kons
 #ENV DEBIAN_FRONTEND teletype
 
 
-ENV DISPLAY=192.168.1.4:0
+ENV DISPLAY=172.17.0.1:0
 
 
 
