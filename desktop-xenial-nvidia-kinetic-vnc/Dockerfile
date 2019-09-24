@@ -68,6 +68,10 @@ ENV DISPLAY=172.17.0.1:0
 
 #VOLUME /home/wang /home/wang
 
+# allow chinese input
+ENV LANG=C.UTF-8
+
+
 
 
 

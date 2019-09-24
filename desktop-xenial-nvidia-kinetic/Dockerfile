@@ -48,6 +48,9 @@ RUN apt-get update && apt install -y --no-install-recommends terminator and kons
 
 ENV DISPLAY=172.17.0.1:0
 
+# allow chinese input
+ENV LANG=C.UTF-8
+
 
 
 
