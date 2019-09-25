@@ -39,7 +39,7 @@ RUN apt-get update && apt-get install -y \
 
 ########################### install windows manager ########################################
 #krusader
-RUN apt-get update && apt install -y --no-install-recommends terminator and konsole and krusader && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt install -y --no-install-recommends vim and terminator and konsole and krusader && rm -rf /var/lib/apt/lists/*
 #RUN apt-get update && apt install -y --no-install-recommends dolphin and nautilus and thunar and pcmanfm && rm -rf /var/lib/apt/lists/*
 
 
